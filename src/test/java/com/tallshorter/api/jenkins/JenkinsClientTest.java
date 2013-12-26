@@ -99,7 +99,7 @@ public class JenkinsClientTest {
 	public void testLDAPCredentials() {
 		// hide the password here for security
 		client = new JenkinsClient("localhost", 443, "tallshort", "XXXXXX", true); 
-		System.out.println(client.job().getCurrentBuildNumber("P4Sync_TestScripts"));
+		System.out.println(client.job().getCurrentBuildNumber("demo"));
 	}
 
 }
