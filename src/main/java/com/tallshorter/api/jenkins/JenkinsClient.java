@@ -80,7 +80,7 @@ public class JenkinsClient implements IJenkinsClient {
 	}
 
 	public JenkinsClient(String serverHostname, int serverPort, String username, String password) {
-		this(serverHostname, DEFAULT_PORT, username, password, false);
+		this(serverHostname, serverPort, username, password, false);
 	}
 
 	public JenkinsClient(String serverHostname, int serverPort, String username, String password, boolean secure) {
